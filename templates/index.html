@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   </head>
+<body>
+    <h1>BTS-simulator</h1>
+    <p><img style="float: left;" src="http://pytevoi.ru:8080/?action=stream" width="640px" height="480px"></p>
+
+	    <form>
+	            <a href="#" id=butom1 class="button orange rectangular">&uarr;</a>
+	            <a href="#" id=butom2 class="button orange rectangular">&larr;</a>
+	            <a href="#" id=butom3 class="button orange rectangular">&darr;</a>
+	            <a href="#" id=butom4 class="button orange rectangular">&rarr;</a>
+	            </form>
+        <form>
+                <a id="on" class="button orange rectangular" >CameraOn</a>
+                <a id="off" class="button orange rectangular" >CameraOff</a>
+                </form>
+
+        <form><var>
+        <input type="checkbox" id="switch1" name="switch1" class="switch" />
+        <label for="switch1">Включить <label>
+        </var></form>
+
+        <form><var>
+        <input type="checkbox" id="switch2" name="switch2" class="switch"/>
+        <label for="switch2">Питание <label>
+        </var></form>
+
+</body>
+</html>
